@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jvm", "jvm.vcproj", "{A5F298D6-B008-4484-A463-DB4B60F8DB07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "natives", "..\natives\natives.vcproj", "{0FFE2544-B17D-4A72-BECF-93F5F3E1ED06}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectName0 = \u0022$/JVM\u0022,\u0020LYCAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = intrp\\
+		SolutionUniqueID = {CD744AB4-8227-4BFA-900B-5FA7FF26201C}
+		SccProjectUniqueName1 = jvm.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = intrp\\
+		SccProjectUniqueName2 = ..\\natives\\natives.vcproj
+		SccLocalPath2 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = natives\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A5F298D6-B008-4484-A463-DB4B60F8DB07}.Debug.ActiveCfg = Debug|Win32
+		{A5F298D6-B008-4484-A463-DB4B60F8DB07}.Debug.Build.0 = Debug|Win32
+		{A5F298D6-B008-4484-A463-DB4B60F8DB07}.Release.ActiveCfg = Release|Win32
+		{A5F298D6-B008-4484-A463-DB4B60F8DB07}.Release.Build.0 = Release|Win32
+		{0FFE2544-B17D-4A72-BECF-93F5F3E1ED06}.Debug.ActiveCfg = Debug|Win32
+		{0FFE2544-B17D-4A72-BECF-93F5F3E1ED06}.Debug.Build.0 = Debug|Win32
+		{0FFE2544-B17D-4A72-BECF-93F5F3E1ED06}.Release.ActiveCfg = Release|Win32
+		{0FFE2544-B17D-4A72-BECF-93F5F3E1ED06}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

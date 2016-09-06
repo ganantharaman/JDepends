@@ -1,0 +1,250 @@
+--------------------Configuration: jvm - Win32 Debug--------------------
+Begining build with project "C:\users\gopal\jvm\project\jvm.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "_DEBUG" /D "__DEBUG__" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "__I386__" /Fp"Debug/jvm.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/jvm.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/jvm.pdb" /debug /machine:I386 /out:"Debug/jvm.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSPA301.TMP" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "_DEBUG" /D "__DEBUG__" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "__I386__" /Fp"Debug/jvm.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\users\gopal\jvm\project\jvmrt.c"
+"C:\users\gopal\jvm\project\Jvmsys.c"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPA301.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSPA302.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/jvm.pdb" /debug /machine:I386 /out:"Debug/jvm.exe" /pdbtype:sept 
+.\Debug\bintree.obj
+.\Debug\Hashtabl.obj
+.\Debug\Jvmclass.obj
+.\Debug\jvmconfg.obj
+.\Debug\jvmerr.obj
+.\Debug\jvmexcpt.obj
+.\Debug\jvmloadr.obj
+.\Debug\Jvmmain.obj
+.\Debug\jvmmem.obj
+.\Debug\jvmparse.obj
+.\Debug\jvmrt.obj
+.\Debug\Jvmsprng.obj
+.\Debug\Jvmsys.obj
+.\Debug\jvmutil.obj
+.\Debug\Jvmw32os.obj
+.\Debug\linklist.obj>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPA302.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSPA303.BAT" with contents <@echo off
+.\checktool\debug\checktool.exe jvm CHECK,CHECK
+>
+Creating command line "C:\WINDOWS\TEMP\RSPA303.BAT" 
+Compiling...
+jvmrt.c
+C:\users\gopal\jvm\project\jvmrt.c(1115) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1146) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1181) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1190) : warning C4244: '=' : conversion from 'float ' to 'unsigned int ', possible loss of data
+C:\users\gopal\jvm\project\jvmrt.c(1213) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1222) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned int ', possible loss of data
+C:\users\gopal\jvm\project\jvmrt.c(1224) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned int ', possible loss of data
+C:\users\gopal\jvm\project\jvmrt.c(1248) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1260) : error C2115: '=' : incompatible types
+C:\users\gopal\jvm\project\jvmrt.c(1266) : error C2115: '=' : incompatible types
+C:\users\gopal\jvm\project\jvmrt.c(1295) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1327) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1358) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1367) : error C2059: syntax error : ')'
+C:\users\gopal\jvm\project\jvmrt.c(1367) : error C2100: illegal indirection
+C:\users\gopal\jvm\project\jvmrt.c(1607) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1640) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1649) : warning C4013: 'MAKE_64' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(1672) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1683) : error C2065: 'ju32STackTop' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(1705) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1714) : error C2223: left of '->u' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(1741) : warning C4047: '==' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1749) : warning C4013: 'IsValidJVMHeapPtr' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(1749) : warning C4013: 'IsReference' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(1752) : warning C4013: 'IsAssignmentCompatible' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(1755) : warning C4047: '=' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(1978) : error C2065: 'jaiValue1' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(1980) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+C:\users\gopal\jvm\project\jvmrt.c(2042) : warning C4305: '=' : truncation from 'const unsigned int ' to 'float '
+C:\users\gopal\jvm\project\jvmrt.c(2049) : warning C4305: '=' : truncation from 'const unsigned __int64 ' to 'float '
+C:\users\gopal\jvm\project\jvmrt.c(2076) : warning C4244: '=' : conversion from 'float ' to 'unsigned int ', possible loss of data
+C:\users\gopal\jvm\project\jvmrt.c(2116) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+C:\users\gopal\jvm\project\jvmrt.c(2140) : warning C4244: '=' : conversion from 'float ' to 'unsigned int ', possible loss of data
+C:\users\gopal\jvm\project\jvmrt.c(2199) : warning C4133: '=' : incompatible types - from 'struct _JVM_Constant_Pool *' to 'unsigned char *'
+C:\users\gopal\jvm\project\jvmrt.c(2211) : warning C4133: '=' : incompatible types - from 'struct _JVM_Constant_Pool *' to 'unsigned char *'
+C:\users\gopal\jvm\project\jvmrt.c(2217) : warning C4133: '=' : incompatible types - from 'struct _JVM_Constant_Pool *' to 'unsigned char *'
+C:\users\gopal\jvm\project\jvmrt.c(2227) : warning C4013: 'JvmLdrLoadNewClass' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2231) : warning C4013: 'JvmGetDeferredException' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2234) : error C2146: syntax error : missing ';' before identifier 'JvmThrowException'
+C:\users\gopal\jvm\project\jvmrt.c(2247) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2251) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2254) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2256) : warning C4013: 'JvmLdrGetUtf8Info' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2259) : warning C4013: 'IsValidMethodNameOf' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2259) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2280) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2284) : warning C4013: 'IsValidMethodTypeOf' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2287) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2288) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2290) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2292) : warning C4013: 'JvmSpringFree' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2310) : warning C4013: 'JvmAlloc' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2310) : warning C4047: '=' : 'unsigned int *' differs in levels of indirection from 'int '
+C:\users\gopal\jvm\project\jvmrt.c(2320) : warning C4047: '=' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(2333) : warning C4013: 'JvmRtSaveContext' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2336) : warning C4013: 'JvmRtCallMethod' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2339) : warning C4013: 'JvmRtRestoreContext' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2339) : error C2143: syntax error : missing ')' before ';'
+C:\users\gopal\jvm\project\jvmrt.c(2346) : warning C4013: 'JvmRtSetUpStackFrame' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2347) : warning C4013: 'JvmRtSetUpParameters' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2348) : warning C4013: 'JvmRtSetUpExecEnv' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2382) : error C2065: 'jawIndex' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2384) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2390) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2395) : error C2065: 'pju16Len' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2395) : warning C4047: 'function' : 'unsigned short *' differs in levels of indirection from 'int '
+C:\users\gopal\jvm\project\jvmrt.c(2395) : warning C4024: 'JvmLdrGetUtf8Bytes' : different types for formal and actual parameter 3
+C:\users\gopal\jvm\project\jvmrt.c(2400) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2407) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2411) : error C2065: 'EXC_JAVAINSTANTIATION' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2413) : error C2143: syntax error : missing ';' before '||'
+C:\users\gopal\jvm\project\jvmrt.c(2419) : error C2065: 'pjccClass' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2419) : warning C4047: 'function' : 'struct _JVM_Class_Class *' differs in levels of indirection from 'int '
+C:\users\gopal\jvm\project\jvmrt.c(2419) : warning C4024: 'JvmRtCreateNewInstance' : different types for formal and actual parameter 1
+C:\users\gopal\jvm\project\jvmrt.c(2419) : error C2099: initializer is not a constant
+C:\users\gopal\jvm\project\jvmrt.c(2421) : error C2065: 'pjeeExecEnv' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2421) : error C2223: left of '->ju32OpStackTop' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2421) : error C2056: illegal expression
+C:\users\gopal\jvm\project\jvmrt.c(2421) : error C2466: cannot allocate an array of constant size 0
+C:\users\gopal\jvm\project\jvmrt.c(2421) : error C2099: initializer is not a constant
+C:\users\gopal\jvm\project\jvmrt.c(2423) : error C2143: syntax error : missing '{' before '->'
+C:\users\gopal\jvm\project\jvmrt.c(2423) : error C2059: syntax error : '->'
+C:\users\gopal\jvm\project\jvmrt.c(2425) : error C2059: syntax error : '}'
+C:\users\gopal\jvm\project\jvmrt.c(2507) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2513) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2518) : warning C4047: 'function' : 'unsigned short *' differs in levels of indirection from 'int '
+C:\users\gopal\jvm\project\jvmrt.c(2518) : warning C4024: 'JvmLdrGetUtf8Bytes' : different types for formal and actual parameter 3
+C:\users\gopal\jvm\project\jvmrt.c(2523) : warning C4013: 'JvmLdrMakeNewArrayClass' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2523) : error C2065: '_jaoGPrimitiveLoader' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2530) : error C2065: 'pjccRefClass' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2530) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2534) : error C2065: 'joArrayObject' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2534) : warning C4013: 'JvmRtCreateNewArray' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2534) : error C2223: left of '->jcBaseType' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2536) : error C2223: left of '->joArrayBaseTypeObject' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2563) : warning C4047: '=' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(2568) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2572) : error C2039: 'juArraySize' : is not a member of '_JVM_Array_Object'
+C:\users\gopal\jvm\project\jvmrt.c(2592) : warning C4047: '=' : 'void *' differs in levels of indirection from 'unsigned int '
+C:\users\gopal\jvm\project\jvmrt.c(2597) : warning C4013: 'JVM_SPRING_CREATE' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2598) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2601) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2601) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2601) : error C2143: syntax error : missing ';' before '||'
+C:\users\gopal\jvm\project\jvmrt.c(2609) : error C2371: 'JvmThrowException' : redefinition; different basic types
+C:\users\gopal\jvm\project\jvmrt.c(2610) : error C2059: syntax error : '}'
+C:\users\gopal\jvm\project\jvmrt.c(2745) : error C2065: 'pjbyThisCode' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2745) : error C2109: subscript requires array or pointer type
+C:\users\gopal\jvm\project\jvmrt.c(2745) : error C2109: subscript requires array or pointer type
+C:\users\gopal\jvm\project\jvmrt.c(2747) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2753) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2769) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2774) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2775) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2781) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2781) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2785) : warning C4013: 'IsSubclassOf' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2785) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2786) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2787) : error C2143: syntax error : missing ';' before '}'
+C:\users\gopal\jvm\project\jvmrt.c(2789) : error C2065: 'REF_TYPE_INTERFACE' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2791) : warning C4013: 'IsInterfaceImplementedBy' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2791) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2792) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2800) : error C2223: left of '->joObjectClassObject' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2801) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2857) : error C2171: '!' : illegal operand
+C:\users\gopal\jvm\project\jvmrt.c(2857) : error C2180: controlling expression has type 'void'
+C:\users\gopal\jvm\project\jvmrt.c(2857) : error C2180: controlling expression has type 'void'
+C:\users\gopal\jvm\project\jvmrt.c(2879) : error C2065: 'ILOAD' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2879) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2880) : error C2065: 'FLOAD' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2880) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2883) : error C2065: 'LLOAD' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2883) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2884) : error C2065: 'DLOAD' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2884) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2887) : error C2065: 'ALOAD' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2887) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2890) : error C2065: 'ISTORE' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2890) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2891) : error C2065: 'FSTORE' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2891) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2894) : error C2065: 'LSTORE' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2894) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2895) : error C2065: 'DSTORE' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2895) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2898) : error C2065: 'ASTORE' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2898) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2901) : error C2065: 'RET' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2901) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2902) : warning C4013: 'JvmRtByteCode_ret__Handler' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2904) : error C2065: 'IINC' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2904) : error C2051: case expression not constant
+C:\users\gopal\jvm\project\jvmrt.c(2905) : warning C4013: 'JvmRtByteCode_iinc__Handler' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\jvmrt.c(2908) : error C2065: 'EXC_JAVAVIRTUALMACHINE' : undeclared identifier
+C:\users\gopal\jvm\project\jvmrt.c(2948) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2954) : error C2039: 'pjsfCurrClass' : is not a member of '_JVM_Stack_Frame'
+C:\users\gopal\jvm\project\jvmrt.c(2960) : warning C4047: 'function' : 'unsigned short *' differs in levels of indirection from 'int '
+C:\users\gopal\jvm\project\jvmrt.c(2960) : warning C4024: 'JvmLdrGetUtf8Bytes' : different types for formal and actual parameter 3
+C:\users\gopal\jvm\project\jvmrt.c(2972) : error C2223: left of '->pjoiObjectID' must point to struct/union
+C:\users\gopal\jvm\project\jvmrt.c(2976) : error C2143: syntax error : missing ';' before 'for'
+C:\users\gopal\jvm\project\jvmrt.c(2976) : fatal error C1003: error count exceeds 100; stopping compilation
+Jvmsys.c
+C:\users\gopal\jvm\project\Jvmsys.c(50) : error C2065: '_psoGSysObjects' : undeclared identifier
+C:\users\gopal\jvm\project\Jvmsys.c(50) : warning C4013: 'JvmMemCalloc' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\Jvmsys.c(53) : error C2223: left of '->pllFileHandleList' must point to struct/union
+C:\users\gopal\jvm\project\Jvmsys.c(59) : error C2198: 'LinkListCreate' : too few actual parameters
+C:\users\gopal\jvm\project\Jvmsys.c(64) : error C2223: left of '->jsPathMark' must point to struct/union
+C:\users\gopal\jvm\project\Jvmsys.c(64) : warning C4013: 'JVM_SPRING_CREATE' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\Jvmsys.c(66) : error C2223: left of '->jsClassPath' must point to struct/union
+C:\users\gopal\jvm\project\Jvmsys.c(68) : error C2223: left of '->jsCurrentWorkingDir' must point to struct/union
+C:\users\gopal\jvm\project\Jvmsys.c(84) : error C2223: left of '->jsPathMark' must point to struct/union
+C:\users\gopal\jvm\project\Jvmsys.c(86) : error C2065: 'JvmSpring' : undeclared identifier
+C:\users\gopal\jvm\project\Jvmsys.c(86) : error C2146: syntax error : missing ';' before identifier '_psoGSysObjects'
+C:\users\gopal\jvm\project\Jvmsys.c(86) : error C2223: left of '->jsPathMark' must point to struct/union
+C:\users\gopal\jvm\project\Jvmsys.c(89) : warning C4035: 'JvmSysGetPathMarks' : no return value
+C:\users\gopal\jvm\project\Jvmsys.c(99) : error C2065: 'EXC_JAVAVIRUALMACHINEERROR' : undeclared identifier
+C:\users\gopal\jvm\project\Jvmsys.c(135) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'void ** '
+C:\users\gopal\jvm\project\Jvmsys.c(135) : warning C4024: '_OS_CreateThread' : different types for formal and actual parameter 3
+C:\users\gopal\jvm\project\Jvmsys.c(135) : warning C4047: 'function' : 'struct _OS_THREAD ** ' differs in levels of indirection from 'unsigned long *'
+C:\users\gopal\jvm\project\Jvmsys.c(135) : warning C4024: '_OS_CreateThread' : different types for formal and actual parameter 4
+C:\users\gopal\jvm\project\Jvmsys.c(135) : error C2198: '_OS_CreateThread' : too few actual parameters
+C:\users\gopal\jvm\project\Jvmsys.c(265) : warning C4047: '=' : 'unsigned int ' differs in levels of indirection from 'void *'
+C:\users\gopal\jvm\project\Jvmsys.c(334) : warning C4013: '_OS_GetErrorMessage' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\Jvmsys.c(335) : warning C4047: '=' : 'unsigned char *' differs in levels of indirection from 'int '
+C:\users\gopal\jvm\project\Jvmsys.c(341) : error C2371: 'JvmSysPostThreadMessage_int' : redefinition; different basic types
+C:\users\gopal\jvm\project\Jvmsys.c(343) : warning C4013: '_OS_GetNewThreadMessage' undefined; assuming extern returning int
+C:\users\gopal\jvm\project\Jvmsys.c(343) : warning C4047: 'initializing' : 'struct _OS_THREAD_MESSAGE *' differs in levels of indirection from 'int '
+C:\users\gopal\jvm\project\Jvmsys.c(348) : error C2039: '_t_orig_thread' : is not a member of '_OS_THREAD_MESSAGE'
+C:\users\gopal\jvm\project\Jvmsys.c(349) : error C2039: '_t_dest_thread' : is not a member of '_OS_THREAD_MESSAGE'
+C:\users\gopal\jvm\project\Jvmsys.c(351) : error C2039: '_t_dest_thread' : is not a member of '_OS_THREAD_MESSAGE'
+C:\users\gopal\jvm\project\Jvmsys.c(356) : error C2371: 'JvmSysPostThreadMessage_long' : redefinition; different basic types
+C:\users\gopal\jvm\project\Jvmsys.c(358) : warning C4047: 'initializing' : 'struct _OS_THREAD_MESSAGE *' differs in levels of indirection from 'int '
+C:\users\gopal\jvm\project\Jvmsys.c(363) : error C2065: 'jlLongValue' : undeclared identifier
+C:\users\gopal\jvm\project\Jvmsys.c(367) : warning C4133: 'function' : incompatible types - from 'struct _OS_THREAD *' to 'struct _OS_THREAD_MESSAGE *'
+C:\users\gopal\jvm\project\Jvmsys.c(367) : warning C4133: 'function' : incompatible types - from 'struct _OS_THREAD_MESSAGE *' to 'unsigned long *'
+C:\users\gopal\jvm\project\Jvmsys.c(367) : warning C4020: '_OS_PostThreadMessage' : too many actual parameters
+C:\users\gopal\jvm\project\Jvmsys.c(371) : error C2371: 'JvmSysPostThreadMessage_ptr' : redefinition; different basic types
+C:\users\gopal\jvm\project\Jvmsys.c(373) : warning C4047: 'initializing' : 'struct _OS_THREAD_MESSAGE *' differs in levels of indirection from 'int '
+C:\users\gopal\jvm\project\Jvmsys.c(381) : warning C4133: 'function' : incompatible types - from 'struct _OS_THREAD *' to 'struct _OS_THREAD_MESSAGE *'
+C:\users\gopal\jvm\project\Jvmsys.c(381) : warning C4133: 'function' : incompatible types - from 'struct _OS_THREAD_MESSAGE *' to 'unsigned long *'
+C:\users\gopal\jvm\project\Jvmsys.c(381) : warning C4020: '_OS_PostThreadMessage' : too many actual parameters
+Error executing cl.exe.
+
+
+
+jvm.exe - 121 error(s), 82 warning(s)
