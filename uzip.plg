@@ -1,0 +1,81 @@
+--------------------Configuration: uzip - Win32 Debug--------------------
+Begining build with project "F:\jvm\src\uzip\uzip.dsp", at root.
+Active configuration is Win32 (x86) Static Library (based on Win32 (x86) Static Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /GX /Z7 /Od /I "." /I "./win32" /I ".." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "DLL" /Fp"Debug/uzip.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Browser Database Maker" with flags "/nologo /o"Debug/uzip.bsc" "
+			"Library Manager" with flags "/nologo /out:"Debug\uzip.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP751.tmp" with contents </nologo /MDd /W3 /GX /Z7 /Od /I "." /I "./win32" /I ".." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "DLL" /Fp"Debug/uzip.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\jvm\src\uzip\api.c"
+"F:\jvm\src\uzip\crc32.c"
+"F:\jvm\src\uzip\crctab.c"
+"F:\jvm\src\uzip\crypt.c"
+"F:\jvm\src\uzip\envargs.c"
+"F:\jvm\src\uzip\explode.c"
+"F:\jvm\src\uzip\extract.c"
+"F:\jvm\src\uzip\fileio.c"
+"F:\jvm\src\uzip\globals.c"
+"F:\jvm\src\uzip\inflate.c"
+"F:\jvm\src\uzip\list.c"
+"F:\jvm\src\uzip\match.c"
+"F:\jvm\src\uzip\win32\nt.c"
+"F:\jvm\src\uzip\process.c"
+"F:\jvm\src\uzip\ttyio.c"
+"F:\jvm\src\uzip\unreduce.c"
+"F:\jvm\src\uzip\unzip.c"
+"F:\jvm\src\uzip\win32\win32.c"
+"F:\jvm\src\uzip\zipinfo.c"
+>
+Creating command line "cl.exe @C:\TEMP\RSP751.tmp" 
+Creating temp file "C:\TEMP\RSP752.tmp" with contents </nologo /out:"Debug\uzip.lib" 
+.\Debug\api.obj
+.\Debug\crc32.obj
+.\Debug\crctab.obj
+.\Debug\crypt.obj
+.\Debug\envargs.obj
+.\Debug\explode.obj
+.\Debug\extract.obj
+.\Debug\fileio.obj
+.\Debug\globals.obj
+.\Debug\inflate.obj
+.\Debug\list.obj
+.\Debug\match.obj
+.\Debug\nt.obj
+.\Debug\process.obj
+.\Debug\ttyio.obj
+.\Debug\unreduce.obj
+.\Debug\unzip.obj
+.\Debug\win32.obj
+.\Debug\zipinfo.obj>
+Creating command line "link.exe -lib @C:\TEMP\RSP752.tmp" 
+Compiling...
+api.c
+F:\jvm\src\uzip\api.c(162) : warning C4101: 'dummyfn' : unreferenced local variable
+F:\jvm\src\uzip\api.c(215) : warning C4101: 'dummyfn' : unreferenced local variable
+crc32.c
+crctab.c
+crypt.c
+envargs.c
+explode.c
+extract.c
+fileio.c
+globals.c
+inflate.c
+list.c
+match.c
+nt.c
+process.c
+ttyio.c
+unreduce.c
+unzip.c
+win32.c
+zipinfo.c
+Creating library...
+
+
+
+uzip.lib - 0 error(s), 2 warning(s)

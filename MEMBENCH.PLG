@@ -1,0 +1,32 @@
+--------------------Configuration: membench - Win32 Debug--------------------
+Begining build with project "F:\jvm\test\MEMBENCH\Membench.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /I "..\..\src\intrp" /I "..\..\src\utils" /I "..\..\src\utils\win32" /I "..\..\src\utils\win32\jvm" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "__DEBUG__" /D "__JVM_CHECKTOOL_TEST_ENV__" /Fp"Debug/Membench.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/Membench.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Membench.pdb" /debug /machine:I386 /out:"Debug/Membench.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP2E0.tmp" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /I "..\..\src\intrp" /I "..\..\src\utils" /I "..\..\src\utils\win32" /I "..\..\src\utils\win32\jvm" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "__DEBUG__" /D "__JVM_CHECKTOOL_TEST_ENV__" /Fp"Debug/Membench.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\jvm\test\MEMBENCH\Alloc.c"
+"F:\jvm\test\MEMBENCH\Membench.c"
+>
+Creating command line "cl.exe @C:\TEMP\RSP2E0.tmp" 
+Creating temp file "C:\TEMP\RSP2E1.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Membench.pdb" /debug /machine:I386 /out:"Debug/Membench.exe" /pdbtype:sept 
+.\Debug\Alloc.obj
+.\Debug\Jvmmem.obj
+.\Debug\Jvmutil.obj
+.\Debug\Membench.obj
+.\Debug\mem.obj>
+Creating command line "link.exe @C:\TEMP\RSP2E1.tmp" 
+Compiling...
+Alloc.c
+Membench.c
+Linking...
+
+
+
+Membench.exe - 0 error(s), 0 warning(s)

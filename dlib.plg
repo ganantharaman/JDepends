@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP6272.TMP" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /I "../intrp" /I "../cmn" /I "../utils" /I "../utils/win32" /I "../utils/win32/jvm" /I "../uzip" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "__JDEPENDS__" /D "__DEBUG__" /D "__EXPAND_CODE__" /D "__JVM_CHECKTOOL_TEST_ENV__" /D "__I386__" /D "__THREAD__" /D "__CP_TRACE_ON__" /D "DLL" /D "__NO_ACC_FLAGS__" /D "__WINSOCK__" /Fp"Debug/dlib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\jvm\src\utils\win32\util.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6272.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP6273.TMP" with contents
+[
+/nologo /out:"Debug\dlib.lib" 
+.\Debug\bintree.obj
+.\Debug\cmdproc.obj
+.\Debug\hashtabl.obj
+.\Debug\jvmconfg.obj
+.\Debug\Jvmerr.obj
+.\Debug\Jvmexcpt.obj
+.\Debug\jvmloadr.obj
+.\Debug\Jvmmem.obj
+.\Debug\Jvmparse.obj
+.\Debug\Jvmrt.obj
+.\Debug\Jvmsprng.obj
+.\Debug\Jvmsys.obj
+.\Debug\Jvmutil.obj
+.\Debug\linklist.obj
+.\Debug\mem.obj
+.\Debug\osapi.obj
+.\Debug\pool.obj
+.\Debug\stream.obj
+.\Debug\util.obj
+]
+Creating command line "link.exe -lib @C:\WINDOWS\TEMP\RSP6273.TMP"
+<h3>Output Window</h3>
+Compiling...
+util.c
+Creating library...
+
+
+
+<h3>Results</h3>
+dlib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

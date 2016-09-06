@@ -1,0 +1,134 @@
+Readme.txt
+----------
+
+1) You have to use Visual studio 2002. VS 2003 does not automatically convert the .sln and .proj files.
+2) I'm providing the list of files and settings here just in case you have VS 2003.
+
+projects
+--------
+Altogether 3 projects
+dlib, jdepends, uzip.
+
+***************************************************
+
+dlib ---> a library of jvm<xx> files and utilities
+
+
+jvmerr.c 
+jvmexcpt.c
+jvmmem.c
+jvmparse.c
+jvmrt.c
+jvmsprng.c
+jvmsys.c
+jvmutil.c
+bintree.c
+cmdproc.c
+hashtabl.c
+jvmconfg.c
+jvmloadr.c
+linklist.c
+mem.c
+osapi.c
+pool.c
+stream.c
+util.c
+
+
+include directories
+../intrp,../cmn,../utils,../utils/win32,../utils/win32/jvm,../uzip
+
+preprocessor definitions are...
+
+WIN32;_DEBUG;_WINDOWS;__JDEPENDS__;__DEBUG__;__I386__;__THREAD__;DLL;__NO_ACC_FLAGS__;__WINSOCK__;__JVM_CHECKTOOL_TEST_ENV__
+
+
+
+Build it as a static library linking with MFC as a multithreaded dll.
+output 
+
+****************************************************
+
+JDepends --> Actual MFC files for the GUI
+
+CPListView.cpp
+CallGraphView.cpp
+Childfrm.cpp
+ClassInfo.cpp
+ClassProp.cpp
+ClasspathDialog.cpp
+CommonFrame.cpp
+DClassView.cpp
+FolderDialog.cpp (thanks to its original author)
+FormatEdit.cpp
+GraphMan.cpp
+JarClassListView.cpp
+JarDialog.cpp
+JarDoc.cpp
+JarListView.cpp
+MFView.cpp
+MainFrm.cpp
+NormalChildFrm.cpp
+PieView.cpp
+Split.cpp
+Splshwnd.cpp
+Stdafx.cpp
+TreeScrollView.cpp
+codeview.cpp
+jdepends.cpp
+jdepends.rc
+jdependsdoc.cpp
+jdependsview.cpp
+
+include directories
+../utils,../cmn,../utils/win32
+
+preprocessor defines
+WIN32;_DEBUG;_WINDOWS
+
+Build it as an executable linking with MFC as a multithreaded dll.
+Linker input
+
+../uzip/debug/uzip.lib ../dlib/debug/dlib.lib
+
+******************************************************************
+uzip --> static uzip library for reading jar files...
+
+api.c
+crc32.c
+crctab.c
+crypt.c
+envargs.c
+explode.c
+extract.c
+fileio.c
+globals.c
+inflate.c
+list.c
+match.c
+nt.c
+process.c
+ttyio.c
+unreduce.c
+unzip.c
+win32.c
+zipinfo.c
+
+include directories
+.,./win32,..
+
+preprocessor defines
+WIN32,_DEBUG,_WINDOWS,DLL
+
+output .\Debug\uzip.lib
+
+***********************************************
+
+
+1) use __DEBUG__ and JVM_DEBUG for debug mode.
+2) use multithreaded CRTs
+3) use __TRACE__ and __DEBUG__ for trace info
+4) use __I386__ for x86 processor builds
+5) #define __DEBUG__, __I386__,__TRACE__( if necessary )
+	    and __JVM_CHECKTOOL_TEST_ENV__ for Checktool test env
+

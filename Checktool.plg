@@ -1,0 +1,49 @@
+--------------------Configuration: checktool - Win32 Debug--------------------
+Begining build with project "C:\jvm\test\Checktool\checktool.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\src\intrp" /I "..\..\src\utils" /I "..\..\src\utils\win32" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "__DEBUG__" /D "__LOG__" /D "__I386__" /D "__JVM_CHECKTOOL_TEST_ENV__" /D "__OS_SINGLE_THREAD__" /D "__JVM_RUNTIME_PRESENT__" /D "JVM_DEBUG" /D "__EXPAND_CODE__" /Fp"Debug/checktool.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/checktool.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/checktool.pdb" /debug /machine:I386 /out:"Debug/checktool.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSPD2A1.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\src\intrp" /I "..\..\src\utils" /I "..\..\src\utils\win32" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "__DEBUG__" /D "__LOG__" /D "__I386__" /D "__JVM_CHECKTOOL_TEST_ENV__" /D "__OS_SINGLE_THREAD__" /D "__JVM_RUNTIME_PRESENT__" /D "JVM_DEBUG" /D "__EXPAND_CODE__" /Fp"Debug/checktool.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\jvm\src\intrp\Jvmrt.c"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD2A1.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSPD2A2.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/checktool.pdb" /debug /machine:I386 /out:"Debug/checktool.exe" /pdbtype:sept 
+.\Debug\check.obj
+.\Debug\cmdproc.obj
+.\Debug\Hashtabl.obj
+.\Debug\Jvmconfg.obj
+.\Debug\Jvmerr.obj
+.\Debug\Jvmexcpt.obj
+.\Debug\Jvmloadr.obj
+.\Debug\Jvmmem.obj
+.\Debug\Jvmparse.obj
+.\Debug\Jvmrt.obj
+.\Debug\Jvmsprng.obj
+.\Debug\Jvmsys.obj
+.\Debug\Jvmutil.obj
+.\Debug\Jvmw32os.obj
+.\Debug\Linklist.obj
+.\Debug\lock.obj
+.\Debug\pool.obj
+.\Debug\stream.obj>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD2A2.TMP" 
+Compiling...
+Jvmrt.c
+C:\jvm\src\intrp\Jvmrt.c(2382) : warning C4101: 'jiArgs' : unreferenced local variable
+C:\jvm\src\intrp\Jvmrt.c(2382) : warning C4101: 'jawIntValue' : unreferenced local variable
+C:\jvm\src\intrp\Jvmrt.c(2382) : warning C4101: 'jawLongValue' : unreferenced local variable
+C:\jvm\src\intrp\Jvmrt.c(2382) : warning C4101: 'jiCount' : unreferenced local variable
+C:\jvm\src\intrp\Jvmrt.c(2382) : warning C4101: 'pjaoObjRef' : unreferenced local variable
+C:\jvm\src\intrp\Jvmrt.c(4987) : warning C4761: integral size mismatch in argument; conversion supplied
+Linking...
+
+
+
+checktool.exe - 0 error(s), 6 warning(s)
